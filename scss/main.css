@@ -1,0 +1,409 @@
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.coffe {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.coffe_img {
+  width: 203px;
+  height: 24px;
+  color: #333D4B;
+}
+.coffe_list {
+  display: flex;
+  gap: 33px;
+  list-style: none;
+  color: #83888F;
+}
+.coffe_list_item {
+  height: 15px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  transition: all 0.2s ease-in;
+}
+.coffe_list_item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.container_div {
+  width: 1280px;
+  height: 600px;
+  background-image: url(../img/graet\ coffe.png);
+  background-size: 1280px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.panel_h1 {
+  color: #FEFCF7;
+  width: 493px;
+  height: 145px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px;
+  padding-left: 86px;
+  padding-top: 117px;
+}
+
+.panel_p {
+  width: 445px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  padding-left: 86px;
+  margin-bottom: 56px;
+}
+
+.panel_a {
+  text-decoration: none;
+  color: #FEFCF7;
+  border: none;
+  padding: 15px 31px 16px 31px;
+  background-color: #66D2CF;
+  border-radius: 6px;
+  margin-left: 86px;
+  transition: all 0.2s ease-in-out;
+}
+
+.panel_a:hover {
+  background-color: #02fffb;
+  cursor: progress;
+}
+
+.collection {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container_collec {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.collec__h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  color: #83888F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box_collec {
+  position: absolute;
+  top: -80px;
+  height: 196px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+  left: 0;
+  right: 0;
+}
+
+.collec__div {
+  position: relative;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.collec_our {
+  position: relative;
+}
+
+.collec__list {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.collec__list_item {
+  text-align: center;
+  gap: 30px;
+}
+
+.item_box {
+  text-align: center;
+  width: 255px;
+  padding: 15px;
+}
+
+.item_h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.item_p {
+  color: #333D4B;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.section_chose {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.chose_container {
+  text-align: center;
+  max-width: 1440px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 400px;
+}
+
+.chose_box {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #333D4B;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.titel_box {
+  margin: 0 auto;
+  width: 640px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.chose_h2 {
+  text-align: center;
+  color: #FEFCF7;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.chose_p {
+  color: #FEFCF7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  height: 80px;
+  text-align: center;
+}
+
+.chose_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1800px;
+  padding-left: 10px;
+}
+.chose_list_item {
+  border-radius: 6px;
+  padding-top: 70px;
+  background: #0E8784;
+  width: 350px;
+  height: 300px;
+  transition: all 0.3s ease-in;
+}
+.chose_list_item:hover {
+  background: #059a98;
+  cursor: pointer;
+}
+
+.item_h4 {
+  color: #FEFCF7;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.chose_item-p {
+  width: 255px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #FEFCF7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section_work {
+  max-width: 1440px;
+  padding-top: 500px;
+}
+
+.container_work {
+  margin: 0 auto;
+  text-align: start;
+}
+
+.div_work {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.line_div {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  height: 31px;
+  width: 31px;
+  border-radius: 50%;
+  background: #FEFCF7 transparent;
+  border: 2px solid #0E8784;
+}
+
+.lina {
+  width: 365px;
+  height: 4px;
+  background-color: #FDD6BA;
+}
+
+.pick_list {
+  display: flex;
+  width: 1045px;
+  height: 453px;
+  gap: 95px;
+  list-style: none;
+  padding-bottom: 60px;
+  padding-left: 10px;
+}
+
+.pick_list-item {
+  width: 285px;
+  height: 355px;
+}
+
+.pick_titel {
+  color: #FDD6BA;
+  width: 90px;
+  height: 72px;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.pick_heder {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.pick_texs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.pick_a {
+  border: none;
+  text-decoration: none;
+  width: 217px;
+  height: 56px;
+  padding: 15px 30px;
+  background-color: #66D2CF;
+  color: #ffffff;
+  border-radius: 6px;
+  transition: all 0.2s ease-in;
+}
+
+.pick_a:hover {
+  background: #02fffb;
+  cursor: pointer;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #2C343E;
+  max-width: 1480px;
+}
+
+.footer_container {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div_footer {
+  align-items: center;
+  display: flex;
+  gap: 103px;
+  padding: 30px;
+}
+
+.footer_img {
+  width: 203px;
+  height: 24px;
+}
+
+.footer_list {
+  display: flex;
+  color: wheat;
+  list-style: none;
+  gap: 33px;
+}
+
+.footer_list_item {
+  color: #83888F;
+  transition: all 0.2s ease-in;
+}
+
+.footer_list_item:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.span_net {
+  gap: 25px;
+}
+
+.network_a {
+  gap: 25px;
+  margin-right: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.network_a:hover {
+  color: #FDD6BA;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
